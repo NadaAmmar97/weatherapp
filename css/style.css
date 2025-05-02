@@ -1,0 +1,65 @@
+body{
+    color: #bfc1c8 !important;
+    font-family: "Roboto", "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.5;
+    background: #1e202b;
+}
+
+.text-blue{
+    color: #009ad8 !important;
+}
+
+a span{
+    font-size: 10px;
+    color: #ccc !important;
+    top: 15px;
+}
+
+.nav-item a{
+    padding: 5px 25px !important;
+}
+
+ul li .active{
+    border: 1px solid #009ad8;
+    color: #009ad8 !important;
+    border-radius: 30px;
+    transition: 0.3s ease;
+    font-weight: 400;
+}
+
+.banner{
+    background-image: url(../images/banner.png);
+    background-position: cover cover;
+    min-height: 350px;
+}
+
+form{
+    position: relative;
+}
+
+form input[type="button"]{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    bottom: 5px;
+}
+
+.forcast-container{
+    background: #02020239;
+}
+
+.header{
+    background-color: #02020247;
+    font-size: 16px;
+}
+
+.content .degree .num{
+    font-weight: 900;
+    font-size: 75px;
+}
+
+.icons span i{
+    background-color: #000312;
+}
