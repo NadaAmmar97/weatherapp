@@ -17,7 +17,7 @@ form.addEventListener('submit', function (e) {
 word.addEventListener('keyup', search);
 
 async function getData(word) {
-    let req = await fetch(`http://api.weatherapi.com/v1/forecast.json?key=ade36e0776a74d31b4994033250105&q=${word}&days=3`);
+    let req = await fetch(`https://api.weatherapi.com/v1/forecast.json?key=ade36e0776a74d31b4994033250105&q=${word}&days=3`);
     let response = await req.json();
     return response;
 }
